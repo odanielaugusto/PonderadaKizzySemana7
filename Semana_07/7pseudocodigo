@@ -1,0 +1,19 @@
+Algorítimo: "A partir da idade do usuário vamos informar a sua situação em relação ao direito de voto eleitoral"
+
+Início
+
+idade <- x
+
+Imprima "Insira a sua idade: "
+
+SE  idade < 16 ENTÃO
+    "Não pode voltar!"
+
+
+SENÃO SE idade >= 16 && idade < 18 ENTÃO
+    "Voto facultativo"
+
+
+SENÃO idade > 18 ENTÃO
+    "Voto obrigatório"
+fim
